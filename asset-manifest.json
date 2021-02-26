@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/whater-app/static/css/main.bc6ef857.chunk.css",
+    "main.js": "/whater-app/static/js/main.5e7c2ba8.chunk.js",
+    "main.js.map": "/whater-app/static/js/main.5e7c2ba8.chunk.js.map",
+    "runtime-main.js": "/whater-app/static/js/runtime-main.f96d3199.js",
+    "runtime-main.js.map": "/whater-app/static/js/runtime-main.f96d3199.js.map",
+    "static/js/2.5dab6682.chunk.js": "/whater-app/static/js/2.5dab6682.chunk.js",
+    "static/js/2.5dab6682.chunk.js.map": "/whater-app/static/js/2.5dab6682.chunk.js.map",
+    "index.html": "/whater-app/index.html",
+    "precache-manifest.e4c50a62c08efd59d5f1355acf4f3ec5.js": "/whater-app/precache-manifest.e4c50a62c08efd59d5f1355acf4f3ec5.js",
+    "service-worker.js": "/whater-app/service-worker.js",
+    "static/css/main.bc6ef857.chunk.css.map": "/whater-app/static/css/main.bc6ef857.chunk.css.map",
+    "static/js/2.5dab6682.chunk.js.LICENSE.txt": "/whater-app/static/js/2.5dab6682.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f96d3199.js",
+    "static/js/2.5dab6682.chunk.js",
+    "static/css/main.bc6ef857.chunk.css",
+    "static/js/main.5e7c2ba8.chunk.js"
+  ]
+}
