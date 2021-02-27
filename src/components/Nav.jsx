@@ -8,20 +8,17 @@ import About from './About'
 
 function Nav({onSearch}) {
   return (
-    <nav className="navbar navbar-dark bg-dark">
-      <Link to='/'>
-        <span className="navbar-brand">
-          <img id="logoHenry" src={Logo} width="30" height="30" className="d-inline-block align-top" alt="" />
-          Henry - Weather App
-        </span>
-      </Link>
-      <Link to='/about'>
-        <span className="navbar-brand"> About </span>
-      </Link>
-        <SearchBar
-          onSearch={onSearch}
-        />
-    </nav>
+      <nav className="navbar navbar">
+          <Link to='/'>
+          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWwrphZt9rTIUP9B-hv3jdzEPLGjHdb0JfPg&usqp=CAU' width="30" height="30" className="d-inline-block align-top" alt="" />
+            <span className="navbar-brand">
+              Cilma AB
+            </span>
+          </Link>
+          <SearchBar
+            onSearch={onSearch}
+          />
+      </nav>
   );
 };
 

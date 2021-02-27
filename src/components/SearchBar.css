@@ -1,0 +1,19 @@
+.search-cont{
+    border: 2px solid black;
+    display: flex;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+}
+
+.search{
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.icon-search{
+    font-size: 20px;
+}

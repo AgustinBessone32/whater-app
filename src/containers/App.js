@@ -47,30 +47,31 @@ function App() {
     }
   }
   return (
-
-    <Router>
-        <Route
-            path='/'
-            render={() => 
-                            <Nav onSearch={onSearch} />
-                          }
-        />
-        <Route exact path='/'
-                     render={() =>
-                      <Cards cities={cities} onClose={onClose} />
-                      }
-        />
-        <Route
-            path='/about'
-            component={About}
-        />
-        <Route
-            exact
-            path='/ciudad/:id'
-            render={({match}) => <Ciudad city={onFilter(match.params.id)}
-        />}
-  />
-    </Router>
+    <div className='contenido'>
+      <Router>
+          <Route
+              path='/'
+              render={() => 
+                              <Nav onSearch={onSearch} />
+                            }
+          />
+          <Route exact path='/'
+                      render={() =>
+                        <Cards cities={cities} onClose={onClose} />
+                        }
+          />
+          <Route
+              path='/about'
+              component={About}
+          />
+          <Route
+              exact
+              path='/ciudad/:id'
+              render={({match}) => <Ciudad city={onFilter(match.params.id)}
+          />}
+    />
+      </Router>
+    </div>
   );
 }
 
