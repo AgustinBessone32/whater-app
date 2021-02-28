@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a10fdb1d4be6ff987824682fba156827",
+    "revision": "b19f0bfdb251c8f35792aa31da103a8d",
     "url": "/whater-app/index.html"
   },
   {
-    "revision": "7649d3cd15c92e628ee8",
-    "url": "/whater-app/static/css/main.6d04a44d.chunk.css"
+    "revision": "7b8e2dfa7d2474e7b0bf",
+    "url": "/whater-app/static/css/main.91dd4a69.chunk.css"
   },
   {
     "revision": "af1b8f1d318a75896d21",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whater-app/static/js/2.c48c1ead.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7649d3cd15c92e628ee8",
-    "url": "/whater-app/static/js/main.27b3c3af.chunk.js"
+    "revision": "7b8e2dfa7d2474e7b0bf",
+    "url": "/whater-app/static/js/main.1502eb70.chunk.js"
   },
   {
     "revision": "f776614a5679855df82a",
