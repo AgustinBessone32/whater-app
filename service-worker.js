@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whater-app/precache-manifest.2234012f0a2ae00a1a375f3020868dd6.js"
+  "/whater-app/precache-manifest.dc40205787e155214914e4e9cd3d8772.js"
 );
 
 self.addEventListener('message', (event) => {
