@@ -3,10 +3,10 @@ import './Ciudad.css'
 
 export default function Ciudad({city}) {
     if(!city) return(
-        <div>No city</div>
+        <div>No se encuentra ninguna ciudad o pais</div>
     )
     return (
-        <div className="ciudad">
+        <div className="ciudad animate__animated animate__backInUp animate__delay-1s">
                 <div className="cont">
                     <h2>{city.name}</h2>
                     <div className="info">

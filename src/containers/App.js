@@ -31,7 +31,6 @@ function App() {
             buttons: "Aceptar"
           })}
           else{
-            console.log("ENV : " , recurso)
             const ciudad = {
               min: Math.round(recurso.main.temp_min),
               max: Math.round(recurso.main.temp_max),

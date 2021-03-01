@@ -9,14 +9,14 @@ export default function SearchBar({onSearch}) {
       <form onSubmit={(e) => {
         e.preventDefault();
         onSearch(city);
+        e.target.reset()
       }}>
         <BiSearchAlt2 className='icon-search' />
         <input
           type="text"
-          placeholder="Ciudad..."
+          placeholder="Buscar..."
           className='search'
-          value={city}
-          onChange={e => setCity(e.target.value)}
+          onChange={e => setCity(e.target.value)} 
         />
       </form>
     </div>
