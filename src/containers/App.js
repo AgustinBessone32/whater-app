@@ -5,7 +5,8 @@ import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards.jsx';
 import About from '../components/About.jsx';
 import Ciudad from '../components/Ciudad.jsx';
-
+import { BiShowAlt } from 'react-icons/bi';
+import swal from 'sweetalert' 
 const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
 
 function App() {
@@ -22,7 +23,13 @@ function App() {
       .then(r => r.json())
       .then((recurso) => {
         if(recurso.main !== undefined){
-          if(obt.includes(recurso.name)) {alert('Ya ha buscado esta ciudad o pais')}
+          if(obt.includes(recurso.name)) {swal({
+            title:'Error',
+            text: 'Ya has ingresado este pais o ciudad',
+            icon: 'error',
+            timer:'1500',
+            buttons: "Aceptar"
+          })}
           else{
             const ciudad = {
               min: Math.round(recurso.main.temp_min),
@@ -42,7 +49,13 @@ function App() {
           }
 
         } else {
-          alert("Ciudad no encontrada");
+          swal({
+            title:'Error',
+            text: 'No se encontro la ciudad o pais ingresado',
+            icon: 'error',
+            timer:'1500',
+            buttons: "Aceptar"
+          })
         }
       });
   }
