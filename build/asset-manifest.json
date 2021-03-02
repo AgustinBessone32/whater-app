@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/whater-app/static/css/main.6872724a.chunk.css",
-    "main.js": "/whater-app/static/js/main.2c4c6560.chunk.js",
-    "main.js.map": "/whater-app/static/js/main.2c4c6560.chunk.js.map",
+    "main.css": "/whater-app/static/css/main.1a0d3332.chunk.css",
+    "main.js": "/whater-app/static/js/main.9e3adcac.chunk.js",
+    "main.js.map": "/whater-app/static/js/main.9e3adcac.chunk.js.map",
     "runtime-main.js": "/whater-app/static/js/runtime-main.f96d3199.js",
     "runtime-main.js.map": "/whater-app/static/js/runtime-main.f96d3199.js.map",
-    "static/js/2.bc060b3b.chunk.js": "/whater-app/static/js/2.bc060b3b.chunk.js",
-    "static/js/2.bc060b3b.chunk.js.map": "/whater-app/static/js/2.bc060b3b.chunk.js.map",
+    "static/js/2.731089a2.chunk.js": "/whater-app/static/js/2.731089a2.chunk.js",
+    "static/js/2.731089a2.chunk.js.map": "/whater-app/static/js/2.731089a2.chunk.js.map",
     "index.html": "/whater-app/index.html",
-    "precache-manifest.dc1c07cd1464ceffa577daa66b9bfd39.js": "/whater-app/precache-manifest.dc1c07cd1464ceffa577daa66b9bfd39.js",
+    "precache-manifest.d7290dfd924f069257b249434dde86f8.js": "/whater-app/precache-manifest.d7290dfd924f069257b249434dde86f8.js",
     "service-worker.js": "/whater-app/service-worker.js",
-    "static/css/main.6872724a.chunk.css.map": "/whater-app/static/css/main.6872724a.chunk.css.map",
-    "static/js/2.bc060b3b.chunk.js.LICENSE.txt": "/whater-app/static/js/2.bc060b3b.chunk.js.LICENSE.txt"
+    "static/css/main.1a0d3332.chunk.css.map": "/whater-app/static/css/main.1a0d3332.chunk.css.map",
+    "static/js/2.731089a2.chunk.js.LICENSE.txt": "/whater-app/static/js/2.731089a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f96d3199.js",
-    "static/js/2.bc060b3b.chunk.js",
-    "static/css/main.6872724a.chunk.css",
-    "static/js/main.2c4c6560.chunk.js"
+    "static/js/2.731089a2.chunk.js",
+    "static/css/main.1a0d3332.chunk.css",
+    "static/js/main.9e3adcac.chunk.js"
   ]
 }

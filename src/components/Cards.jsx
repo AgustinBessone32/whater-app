@@ -20,7 +20,7 @@ export default function Cards({cities, onClose ,obt}) {
           /> )}
       </div> : 
       <div className='msj'> 
-        <h5>Puedes buscar el clima de la ciudad o pais que desees <ImSmile /> </h5>
+        <h5>Puedes buscar el clima de la ciudad <ImSmile /> </h5>
       </div>
       
       }

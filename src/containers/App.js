@@ -5,7 +5,6 @@ import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards.jsx';
 import About from '../components/About.jsx';
 import Ciudad from '../components/Ciudad.jsx';
-import { BiShowAlt } from 'react-icons/bi';
 import swal from 'sweetalert' 
 const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
 
@@ -27,8 +26,7 @@ function App() {
             title:'Error',
             text: 'Ya has ingresado este pais o ciudad',
             icon: 'error',
-            timer:'1500',
-            buttons: "Aceptar"
+            timer:'2000',
           })}
           else{
             const ciudad = {
@@ -53,8 +51,7 @@ function App() {
             title:'Error',
             text: 'No se encontro la ciudad o pais ingresado',
             icon: 'error',
-            timer:'1500',
-            buttons: "Aceptar"
+            timer:'2000',
           })
         }
       });
