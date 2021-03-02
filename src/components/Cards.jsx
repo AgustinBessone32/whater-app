@@ -1,7 +1,6 @@
 import React from 'react';
 import './Cards.css';
 import {ImSmile} from 'react-icons/im'
-
 import Card from './Card.jsx';
 
 export default function Cards({cities, onClose ,obt}) {
@@ -20,7 +19,7 @@ export default function Cards({cities, onClose ,obt}) {
           /> )}
       </div> : 
       <div className='msj'> 
-        <h5>Puedes buscar el clima de la ciudad <ImSmile /> </h5>
+        <h5>Puedes buscar el clima de la ciudad que desees <ImSmile /> </h5>
       </div>
       
       }

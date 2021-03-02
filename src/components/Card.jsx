@@ -23,7 +23,7 @@ export default function Card ({min, max, name, img, onClose, id}) {
                 <p>{max}°</p>
               </div>
             </div>
-            <div className="">
+            <div>
               <img className="iconoClima" src={"http://openweathermap.org/img/wn/"+img+"@2x.png"} width="80" height="80" alt="" />
             </div>
           </div>
