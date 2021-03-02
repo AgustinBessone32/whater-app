@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/whater-app/static/css/main.6872724a.chunk.css",
+    "main.css": "/whater-app/static/css/main.f041605c.chunk.css",
     "main.js": "/whater-app/static/js/main.2c4c6560.chunk.js",
     "main.js.map": "/whater-app/static/js/main.2c4c6560.chunk.js.map",
     "runtime-main.js": "/whater-app/static/js/runtime-main.f96d3199.js",
@@ -8,15 +8,15 @@
     "static/js/2.bc060b3b.chunk.js": "/whater-app/static/js/2.bc060b3b.chunk.js",
     "static/js/2.bc060b3b.chunk.js.map": "/whater-app/static/js/2.bc060b3b.chunk.js.map",
     "index.html": "/whater-app/index.html",
-    "precache-manifest.dc1c07cd1464ceffa577daa66b9bfd39.js": "/whater-app/precache-manifest.dc1c07cd1464ceffa577daa66b9bfd39.js",
+    "precache-manifest.3bfff36b64616e3c3a21b60b0e3cfc23.js": "/whater-app/precache-manifest.3bfff36b64616e3c3a21b60b0e3cfc23.js",
     "service-worker.js": "/whater-app/service-worker.js",
-    "static/css/main.6872724a.chunk.css.map": "/whater-app/static/css/main.6872724a.chunk.css.map",
+    "static/css/main.f041605c.chunk.css.map": "/whater-app/static/css/main.f041605c.chunk.css.map",
     "static/js/2.bc060b3b.chunk.js.LICENSE.txt": "/whater-app/static/js/2.bc060b3b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f96d3199.js",
     "static/js/2.bc060b3b.chunk.js",
-    "static/css/main.6872724a.chunk.css",
+    "static/css/main.f041605c.chunk.css",
     "static/js/main.2c4c6560.chunk.js"
   ]
 }
