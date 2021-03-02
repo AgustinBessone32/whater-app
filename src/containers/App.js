@@ -78,7 +78,7 @@ function App() {
           />
           <Route exact path='/'
                       render={() =>
-                        <Cards cities={cities} onClose={onClose} />
+                        <Cards cities={cities} onClose={onClose} obt={obt} />
                         }
           />
           <Route

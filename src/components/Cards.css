@@ -3,3 +3,25 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.msj{
+  display: flex;
+  justify-content: center;
+  flex: wrap;
+  margin: 20px;
+  margin-top: 200px;
+  color: white;
+  animation: parpadeo 3s infinite;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+@keyframes parpadeo{
+  0%{ font-size: 100px}
+  
+  25%{ color: transparent;}
+
+  50%{border: 2px solid black;}
+
+
+}
