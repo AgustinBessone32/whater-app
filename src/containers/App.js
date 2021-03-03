@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import {Route , Switch , NavLink , HashRouter as Router} from 'react-router-dom';
+import {Route , HashRouter as Router} from 'react-router-dom';
 import './App.css';
 import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards.jsx';
-import About from '../components/About.jsx';
 import Ciudad from '../components/Ciudad.jsx';
 import swal from 'sweetalert' 
 import Home from '../components/Home';
@@ -14,7 +13,7 @@ function App() {
   const [obt , setObt] = useState([]);
   
   function onClose(id , name) {
-    setCities(oldCities => oldCities.filter(c => c.id != id));
+    setCities(oldCities => oldCities.filter(c => c.id !== id));
     setObt(oldObt => oldObt.filter(nam => nam !== name))
   }
   function onSearch(ciudad) {
@@ -58,7 +57,7 @@ function App() {
       });
   }
   function onFilter(ciudadId) {
-    let ciudad = cities.filter(c => c.id == parseInt(ciudadId));
+    let ciudad = cities.filter(c => c.id === parseInt(ciudadId));
     if(ciudad.length > 0) {
         return ciudad[0];
     } else {
