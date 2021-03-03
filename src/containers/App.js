@@ -6,6 +6,7 @@ import Cards from '../components/Cards.jsx';
 import About from '../components/About.jsx';
 import Ciudad from '../components/Ciudad.jsx';
 import swal from 'sweetalert' 
+import Home from '../components/Home';
 const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
 
 function App() {
@@ -68,26 +69,24 @@ function App() {
     <div className='contenido'>
       <Router>
           <Route
-              path='/'
-              render={() => 
-                              <Nav onSearch={onSearch} />
-                            }
+              exact path='/'
+              render = {() => <Home />}
           />
-          <Route exact path='/'
-                      render={() =>
-                        <Cards cities={cities} onClose={onClose} obt={obt} />
-                        }
-          />
+          
           <Route
-              path='/about'
-              component={About}
+              path='/busqueda'
+              render={() => 
+              <Nav onSearch={onSearch} />}
+          />
+          <Route exact path='/busqueda'
+                render={() =>
+                <Cards cities={cities} onClose={onClose} obt={obt} />}
           />
           <Route
               exact
               path='/ciudad/:id'
-              render={({match}) => <Ciudad city={onFilter(match.params.id)}
-          />}
-    />
+              render={({match}) => <Ciudad city={onFilter(match.params.id)} />}
+          />
       </Router>
     </div>
   );
