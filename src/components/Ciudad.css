@@ -16,7 +16,9 @@
 }
 
 .last{
-    color: transparent;
+    color: black;
+    font-size: 50px;
+    margin-left: 30px;
 }
 
 

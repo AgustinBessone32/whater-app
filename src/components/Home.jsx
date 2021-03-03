@@ -11,7 +11,7 @@ const Home = () =>{
                     El clima del mundo en un solo lugar </h3>
                 <div className='content-link'>
                     <NavLink to='/busqueda' className='link'>
-                            Click aquí para entrar
+                            Presiona aquí para entrar
                     </NavLink>
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default function Ciudad({city}) {
     )
     return (
         <>
-            <Link to='/'> 
+            <Link to='/busqueda'> 
                 <div className='last'>
                     <BsArrowLeft />
                 </div>
