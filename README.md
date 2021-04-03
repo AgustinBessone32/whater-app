@@ -11,6 +11,4 @@ Encuentra el clima de la ciudad que desees.
 
 ![responsive](https://user-images.githubusercontent.com/72458804/113485013-d890ea80-9481-11eb-8c99-46689f2d5f05.png)
 Adaptable a cualquier tamaño de pantalla!!!
-
-![detalle](https://user-images.githubusercontent.com/72458804/113485038-02e2a800-9482-11eb-887c-9b2ac84243a8.png)
 Todos los detalles del clima de tu ciudad en un solo lugar.
