@@ -9,6 +9,7 @@ Cuenta con una interfaz muy agradable.
 ![busqueda](https://user-images.githubusercontent.com/72458804/113484987-ab443c80-9481-11eb-8b52-c3c06d153661.png)
 Encuentra el clima de la ciudad que desees.
 
-![responsive](https://user-images.githubusercontent.com/72458804/113485013-d890ea80-9481-11eb-8c99-46689f2d5f05.png)
+![detalle](https://user-images.githubusercontent.com/72458804/113485082-3de4db80-9482-11eb-9755-fcfbf0c76c3d.png)
+
 Adaptable a cualquier tamaño de pantalla!!!
 Todos los detalles del clima de tu ciudad en un solo lugar.
