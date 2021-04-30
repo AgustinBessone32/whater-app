@@ -24,7 +24,7 @@ function App() {
         if(recurso.main !== undefined){
           if(obt.includes(recurso.name)) {swal({
             title:'Error',
-            text: 'Ya has ingresado este pais o ciudad',
+            text: 'Ya has ingresado esta ciudad',
             icon: 'error',
             timer:'2000',
           })}
@@ -49,7 +49,7 @@ function App() {
         } else {
           swal({
             title:'Error',
-            text: 'No se encontro la ciudad o pais ingresado',
+            text: 'No se encontro la ciudad ingresada',
             icon: 'error',
             timer:'2000',
           })
